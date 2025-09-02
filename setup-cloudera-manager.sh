@@ -83,10 +83,10 @@ echo "Copia de seguridad de /etc/hosts creada en /etc/hosts.bak"
 
 DOMAIN="cdp.local"
 ## Verificar si existe el archivo host-dist en el directorio actual
-if [ -f "./host-dist" ]; then
-  echo "Se encontró el archivo host-dist en el directorio actual."
+if [ -f "./hosts-dist" ]; then
+  echo "Se encontró el archivo hosts-dist en el directorio actual."
   echo "Se utilizará este archivo para la configuración de hosts."
-  sudo cp ./host-dist /etc/hosts
+  sudo cp ./hosts-dist /etc/hosts
 
 
 else
