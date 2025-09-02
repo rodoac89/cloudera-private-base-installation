@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Autor: Rodolfo Aravena Collipal
+# Version: 0.1.20250903
+
 # Paso 0
 ## Verificar si el script se ejecuta en el SCM
 echo "Configuración de Cloudera Manager en distribuciones RHEL."
